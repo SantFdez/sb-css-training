@@ -1,0 +1,15 @@
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+@media screen and (min-width: 23.5rem) {
+  .hero__container {
+    flex-direction: row;
+  }
+}

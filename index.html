@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="rtl">
+<html lang="en" dir="ltr">
 
 <head>
     <meta charset="UTF-8" />
@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <header class="header__container">
+    <header>
         <a class="header__skip-nav | btn" href="#main-content">
             Skip Navigation
         </a>
@@ -69,9 +69,25 @@
         </div>
     </header>
     <main>
-        <h1 id="main-content">
-            Main content
-        </h1>
+        <div class="hero__container">      <!-- could add hero__container-75-25 class to control hero__column with? -->
+            <div class="hero__column">
+                <h1>Always Track
+                    & Analyze
+                    Your Business
+                    Statistics
+                    To Succeed.</h1>
+                <p>A better way to manage your sales, team, clients & marketing
+                    — on a single platform. Powerful, affordable & easy.</p>
+
+                <div class="hero__column__input-cta">
+                    <input type="text" placeholder="Enter your email">
+                    <button class="btn btn--accent">Get started</button>
+                </div>
+            </div>
+            <div class="hero__column">
+                <img src="src/assets/hero-illo.png">
+            </div>
+        </div>
     </main>
     <script src="src/js/index.js"></script>
 </body>

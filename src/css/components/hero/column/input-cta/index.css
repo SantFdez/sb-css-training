@@ -1,0 +1,10 @@
+.hero__column__input-cta {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 23.5rem) {
+  .hero__column__input-cta {
+    flex-direction: row;
+  }
+}
