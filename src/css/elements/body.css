@@ -1,0 +1,9 @@
+body {
+  background: #f0f0f0;
+  font-family: "Neue Machina", serif;
+}
+
+body.light-theme {
+  background: #b0fff4;
+  font-family: "Neue Machina", serif;
+}

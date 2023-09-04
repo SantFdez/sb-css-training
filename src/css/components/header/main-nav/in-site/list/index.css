@@ -1,0 +1,12 @@
+.header__main-nav__in-site__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-2);
+}
+
+@media screen and (min-width: 23.5rem) {
+  .header__main-nav__in-site__list {
+    flex-direction: row;
+    gap: var(--size-1);
+  }
+}

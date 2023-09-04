@@ -1,0 +1,17 @@
+.link {
+  display: block;
+
+  padding-block: var(--size-2);
+  padding-inline: var(--size-3);
+  min-inline-size: var(--size-10);
+
+  color: var(--main-text-color);
+  text-decoration: none;
+
+  transition: text-decoration 350ms ease-in-out var(--transition);
+}
+
+.link:hover,
+.link:focus {
+  text-decoration: underline;
+}
