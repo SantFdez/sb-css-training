@@ -1,0 +1,42 @@
+.hero__column {
+  margin: 10px 0;
+  flex: initial;
+  width: 100%;
+  text-align: left;
+}
+
+.hero__column img {
+  width: 100%;
+}
+
+.hero__column input {
+  padding: var(--size-3) var(--size-4);
+  font-size: 16px;
+  margin: 1px;
+}
+
+@media screen and (min-width: 23.5rem) {
+  .hero__column {
+    margin: 10px;
+    flex: 1;
+  }
+
+  .hero__column h1 {
+    font-size: 4rem;
+  }
+
+  .hero__column input {
+    width: 28%;
+    padding: var(--size-3) var(--size-4);
+    font-size: 16px;
+    margin: 1px;
+  }
+
+  .hero__column:first-child {
+    flex: 2;
+  }
+
+  .hero__column:last-child {
+    flex: 1;
+  }
+}

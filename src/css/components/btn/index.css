@@ -1,0 +1,25 @@
+.btn {
+  border: none;
+  border-radius: var(--radius-2);
+
+  padding-block: var(--size-2);
+  padding: var(--size-3) var(--size-4);
+  padding-inline: var(--size-3);
+  min-inline-size: var(--size-8);
+
+  color: var(--main-text-color);
+  cursor: pointer;
+
+  transition: background-color 350ms ease-in-out var(--transition);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--accent-color);
+  color: var(--main-text-color);
+}
+
+.btn--accent {
+  color: var(--accent-color);
+  background-color: var(--accent-bg-color);
+}

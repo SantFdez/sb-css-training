@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://unpkg.com/open-props" />
+
+    <link rel="stylesheet" rel="noopener" target="_blank" href="src/css/index.css" />
+</head>
+
+<body>
+    <header>
+        <a class="header__skip-nav | btn" href="#main-content">
+            Skip Navigation
+        </a>
+        <div class="header__content">
+            <a class="header__logo-link" href="#">
+                <img src="src/assets/logo-small.png" alt="site logo">
+                <span class="sr-only">go to mysite.com</span>
+            </a>
+            <button id="mobile-menu-toggle" class="header__mobile-menu-toggle | btn" type="button"
+                aria-controls="main-navigation" aria-expanded="false">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+                <i class="fa fa-xmark" aria-hidden="true"></i>
+                <span class="sr-only">toggle menu</span>
+            </button>
+            <nav id="main-navigation" class="header__main-nav__content" aria-label="main navigation">
+                <div class="header__main-nav__in-site">
+                    <ul class="header__main-nav__in-site__list">
+                        <li>
+                            <a class="link" href="#">About us</a>
+                        </li>
+                        <li>
+                            <a class="link" href="#">How it works</a>
+                        </li>
+                        <li>
+                            <a class="link" href="#">Pricing</a>
+                        </li>
+                        <li>
+                            <a class="link" href="#">FAQs</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="header__main-nav__auth">
+                    <button class="btn" type="button">
+                        Login
+                    </button>
+
+                    <button class="btn btn--accent" type="button">
+                        Sign Up
+                    </button>
+
+                    <button id="theme-button" class="btn btn--accent" type="button">
+                        Change theme
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="hero__container">      <!-- could add hero__container-75-25 class to control hero__column with? -->
+            <div class="hero__column">
+                <h1>Always Track
+                    & Analyze
+                    Your Business
+                    Statistics
+                    To Succeed.</h1>
+                <p>A better way to manage your sales, team, clients & marketing
+                    — on a single platform. Powerful, affordable & easy.</p>
+
+                <div class="hero__column__input-cta">
+                    <input type="text" placeholder="Enter your email">
+                    <button class="btn btn--accent">Get started</button>
+                </div>
+            </div>
+            <div class="hero__column">
+                <img src="src/assets/hero-illo.png">
+            </div>
+        </div>
+    </main>
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>

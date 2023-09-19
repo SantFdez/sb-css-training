@@ -1,0 +1,25 @@
+:root {
+  --gray-1: #f0f0f0;
+  --black-1: #222;
+  --white: #fff;
+
+  --main-color: var(--gray-1);
+  --main-text-color: var(--black-1);
+  --accent-color: var(--white);
+  --accent-bg-color: var(--black-1);
+
+  --transition: , transform 250ms ease-in;
+}
+
+.light-theme {
+  --gray-1: #3eb5ff;
+  --black-1: #ef0b0b;
+  --white: #ffffff;
+
+  --main-color: var(--gray-1);
+  --main-text-color: var(--black-1);
+  --accent-color: var(--white);
+  --accent-bg-color: var(--black-1);
+
+  --transition: , transform 500ms ease-in;
+}
